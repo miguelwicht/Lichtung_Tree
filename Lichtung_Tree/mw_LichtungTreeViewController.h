@@ -10,7 +10,7 @@
 #import "mw_LichtungTreeView.h"
 
 @interface mw_LichtungTreeViewController : UIViewController {
-    mw_LichtungTreeView *treeView;
+    mw_LichtungTreeView *_treeView;
 }
-- (void)addColor:(UIColor *)color;
+
 @end

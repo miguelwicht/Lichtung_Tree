@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		493D447716A18A0700EE5BE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493D447616A18A0700EE5BE6 /* QuartzCore.framework */; };
+		4990D56116A563E500AEC35D /* mw_LichtungTreeColorChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990D56016A563E500AEC35D /* mw_LichtungTreeColorChanger.m */; };
+		4990D56316A5828E00AEC35D /* LichtungTree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4990D56216A5828E00AEC35D /* LichtungTree.plist */; };
 		49DF300D16A000A0007F7CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF300C16A000A0007F7CD9 /* UIKit.framework */; };
 		49DF300F16A000A0007F7CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF300E16A000A0007F7CD9 /* Foundation.framework */; };
 		49DF301116A000A0007F7CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF301016A000A0007F7CD9 /* CoreGraphics.framework */; };
@@ -23,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		493D447616A18A0700EE5BE6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4990D55F16A563E500AEC35D /* mw_LichtungTreeColorChanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mw_LichtungTreeColorChanger.h; sourceTree = "<group>"; };
+		4990D56016A563E500AEC35D /* mw_LichtungTreeColorChanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mw_LichtungTreeColorChanger.m; sourceTree = "<group>"; };
+		4990D56216A5828E00AEC35D /* LichtungTree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LichtungTree.plist; sourceTree = "<group>"; };
 		49DF300816A000A0007F7CD9 /* Lichtung_Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lichtung_Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DF300C16A000A0007F7CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49DF300E16A000A0007F7CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +100,9 @@
 				49DF302C16A005A2007F7CD9 /* mw_LichtungTreeView.h */,
 				49DF302D16A005A2007F7CD9 /* mw_LichtungTreeView.m */,
 				49DF301316A000A0007F7CD9 /* Supporting Files */,
+				4990D55F16A563E500AEC35D /* mw_LichtungTreeColorChanger.h */,
+				4990D56016A563E500AEC35D /* mw_LichtungTreeColorChanger.m */,
+				4990D56216A5828E00AEC35D /* LichtungTree.plist */,
 			);
 			path = Lichtung_Tree;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 				49DF301F16A000A0007F7CD9 /* Default.png in Resources */,
 				49DF302116A000A0007F7CD9 /* Default@2x.png in Resources */,
 				49DF302316A000A0007F7CD9 /* Default-568h@2x.png in Resources */,
+				4990D56316A5828E00AEC35D /* LichtungTree.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,7 @@
 				49DF301D16A000A0007F7CD9 /* mw_AppDelegate.m in Sources */,
 				49DF302B16A00113007F7CD9 /* mw_LichtungTreeViewController.m in Sources */,
 				49DF302E16A005A2007F7CD9 /* mw_LichtungTreeView.m in Sources */,
+				4990D56116A563E500AEC35D /* mw_LichtungTreeColorChanger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
